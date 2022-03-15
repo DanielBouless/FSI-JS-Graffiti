@@ -5,8 +5,12 @@ let blurLvl = 0
 let invertLvl = 0
 let pageHeader = document.querySelector('#page-header')
 
-pageHeader.style.textAlign = 'left'
 
+pageHeader.style.textAlign = 'left'
+pageHeader.style.backgroundColor = 'crimson'
+
+let bgcolor = document.querySelector('body')
+bgcolor.style.backgroundColor= 'gold'
 let dogImages = document.querySelectorAll('.dog-image')
 
 for(let i=0; i< dogImages.length; i++){
